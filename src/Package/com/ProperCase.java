@@ -7,8 +7,6 @@ public class ProperCase {
     public void sætningsliste (String sætning){
         String[] ordliste = sætning.split(" ");
 
-
-
         for (String s: ordliste) {
 
             if(s.equals(s.toUpperCase())){
